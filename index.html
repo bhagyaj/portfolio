@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhagya Rupasinghe – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & Typography */
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body { font-family: 'Roboto', sans-serif; line-height:1.6; color:#333; background-color:#f8f9fa; }
+    a { text-decoration: none; color:#007bff; }
+    a:hover { text-decoration: underline; }
+    
+    /* Container */
+    .container { width: 90%; max-width: 1000px; margin: auto; padding: 2rem 0; }
+    
+    /* Header */
+    header { text-align: center; margin-bottom: 2rem; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1rem; color:#555; }
+    
+    /* Section titles */
+    h2 { font-size: 1.75rem; margin-bottom: 1rem; color:#222; border-bottom:2px solid #007bff; display:inline-block; padding-bottom:0.25rem; }
+    
+    /* Skills */
+    .skills { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom:2rem; }
+    .skill { background: #007bff; color: #fff; padding: 0.5rem 1rem; border-radius: 20px; font-size:0.9rem; }
+    
+    /* Career Experience & Projects */
+    .card { background: #fff; padding:1rem 1.5rem; margin-bottom:1.5rem; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+    .card h3 { margin-bottom:0.5rem; color:#007bff; }
+    .card p { margin-bottom:0.5rem; }
+    .card ul { list-style: disc; margin-left:1.5rem; }
+    
+    /* Links */
+    .links { display:flex; flex-wrap: wrap; gap:1rem; margin-bottom:2rem; }
+    .links a { background:#007bff; color:#fff; padding:0.5rem 1rem; border-radius:5px; font-size:0.9rem; }
+    
+    /* Footer */
+    footer { text-align:center; margin-top:3rem; color:#777; font-size:0.9rem; }
+    
+    @media(max-width:768px){
+      .skills { flex-direction: column; }
+      .links { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Bhagya Rupasinghe</h1>
+      <p>Data Scientist | AI Specialist | PhD in Data Science & AI</p>
+      <p>Email: <a href="mailto:bhagyajayashani@gmail.com">bhagyajayashani@gmail.com</a> | Phone: +61 449 674 536</p>
+      <p>Location: Hampton Park, VIC, Australia | <a href="#">LinkedIn</a></p>
+    </header>
+
+    <!-- Skills -->
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="skill">Python</span>
+        <span class="skill">C++</span>
+        <span class="skill">Java</span>
+        <span class="skill">ML & AI</span>
+        <span class="skill">Data Analysis</span>
+        <span class="skill">Power BI</span>
+        <span class="skill">SQL</span>
+        <span class="skill">AWS</span>
+        <span class="skill">Docker</span>
+        <span class="skill">MLOps</span>
+      </div>
+    </section>
+
+    <!-- Career Experience -->
+    <section>
+      <h2>Career Experience</h2>
+
+      <div class="card">
+        <h3>PhD Candidate – Monash University</h3>
+        <p><strong>2020 – Present | Department of Data Science & AI</strong></p>
+        <ul>
+          <li>Optimised road network scheduling algorithms to reduce congestion using Python, C++, Minizinc, Gurobi.</li>
+          <li>Processed large-scale network datasets (.cpd, .tntp) for predictive modelling.</li>
+          <li>Automated pipelines for data accessibility, computational efficiency, and reproducibility.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Software Engineer – Ventrek Consultancy Pty Ltd</h3>
+        <p><strong>2021 – Present</strong></p>
+        <ul>
+          <li>Developed transportation management platforms with Java, Spring Boot, React.js, Firebase, AWS, Docker.</li>
+          <li>Provided client support and improved production-level software solutions.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Software Engineer – Virtusa Pvt Ltd</h3>
+        <p><strong>2017 – 2020</strong></p>
+        <ul>
+          <li>Built and optimised microservices architecture; processed image data for OCR applications.</li>
+          <li>Developed prototype products, one of which was acquired by Google.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2>Key Projects</h2>
+
+      <div class="card">
+        <h3>Road Pavement Upgrade Scheduling</h3>
+        <p>Optimised road traffic schedules to minimise congestion; handled large-scale network data.</p>
+      </div>
+
+      <div class="card">
+        <h3>Stock Market Movement Analyser</h3>
+        <p>Correlated stock data with sentiment from tweets; developed ML pipelines for prediction and analysis.</p>
+      </div>
+
+      <div class="card">
+        <h3>Siddhi Debugger & Operators</h3>
+        <p>Built tools for monitoring and enhancing complex event processing workflows in Java.</p>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section>
+      <h2>Publications</h2>
+      <ul>
+        <li><a href="https://doi.org/10.1038/s41598-023-40945-5">Rupasinghe, B. et al. Road pavement upgrade scheduling accounting for minimising congestion. Sci Rep, 2023.</a></li>
+        <li>Jayasinghe, M., Rupasinghe, B. et al. Continuous analytics on graph data streams using WSO2 complex event processor. ACM DEBS Grand Challenge, 2016.</li>
+      </ul>
+    </section>
+
+    <!-- Links -->
+    <section>
+      <h2>Portfolio & GitHub</h2>
+      <div class="links">
+        <a href="https://github.com/bhagyajayashani" target="_blank">GitHub</a>
+        <a href="https://medium.com/@bhagyajayashani" target="_blank">Medium Blog</a>
+        <a href="#">Power BI Dashboards</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2025 Bhagya Rupasinghe. All Rights Reserved.
+    </footer>
+
+  </div>
+
+</body>
+</html>
